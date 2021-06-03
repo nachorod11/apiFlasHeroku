@@ -20,4 +20,6 @@ def valor_id(id):
             return jsonify(diccionario)
     return "El elemento no existe"
 
-app.run()
+if __name__ == '__main__':
+    flaskapp.run(debug=True)
+#app.run()
