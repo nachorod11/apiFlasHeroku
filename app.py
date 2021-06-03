@@ -21,5 +21,4 @@ def valor_id(id):
     return "El elemento no existe"
 
 if __name__ == '__main__':
-    flaskapp.run(debug=True)
-#app.run()
+    app.run(debug=True)
