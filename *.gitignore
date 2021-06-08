@@ -1,6 +1,6 @@
 # Ignored files
 *.DS_store
-.idea
+*.idea
 
 # Flask stuff:
 instance/
@@ -8,6 +8,6 @@ instance/
 
 
 # Jupyter Notebook
-.ipynb_checkpoints
+*.ipynb_checkpoints
 
 # Environments
