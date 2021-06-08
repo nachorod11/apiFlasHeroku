@@ -1,0 +1,13 @@
+# Ignored files
+*.DS_store
+.idea
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments
