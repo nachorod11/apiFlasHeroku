@@ -1,6 +1,11 @@
 # Ignored files
 *.DS_store
-*.idea
+
+# files from idea folder:
+**/.idea/workspace.xml
+**/.idea/tasks.xml
+**/.idea/.iws
+
 
 # Flask stuff:
 instance/
