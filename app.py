@@ -7,7 +7,7 @@ app.config["DEBUG"] = True
 
 @app.route('/')
 def home():
-    return "<h1>Viajar en coche eléctrico.</h1><p>Esta API nos permite obtener posibles rutas para viajar en coche eléctrico.</p>"
+    return "<h1>Viajar en coche eléctrico BLABLABLA.</h1><p>Esta API nos permite obtener posibles rutas para viajar en coche eléctrico.</p>"
 
 @app.route('/api/v1/resources/rutas/all', methods=['GET'])
 def get_all():
@@ -22,3 +22,5 @@ def valor_id(id):
 
 if __name__ == '__main__':
     app.run(debug=True)
+
+#La api corre en Heroku: https://electriccars.herokuapp.com/api/v1/resources/rutas/all
